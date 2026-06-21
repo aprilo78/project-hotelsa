@@ -34,8 +34,8 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: mysql
-      MYSQL_ROOT_PASSWORD: l
-      MYSQL_PASSWORD: l
+      MYSQL_ROOT_PASSWORD:
+      MYSQL_PASSWORD:
       MYSQL_USER: project-hotelsa
     volumes:
       - volume-ujikom:/var/lib/mysql
